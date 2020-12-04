@@ -6,7 +6,8 @@ header {
     background-color: blue;
     color: aquamarine;
     height: 200px;
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     width: 75%;
     margin: auto;
     display: flex;
@@ -26,7 +27,7 @@ h1 {
 .row {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 50px;
     overflow: hidden;
 }
@@ -38,16 +39,24 @@ h1 {
 
 .panel {
     border: 5px solid lightblue;
-    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .panel-head {
     background-color: lightblue;
     text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+#about-me {
+    margin: 5px;
 }
 
 #weezy-img {
     border: 6px solid lightblue;
+    border-radius: 5px;
     width: 100%;
 }
 
@@ -67,4 +76,8 @@ h1 {
 
 #img1 {
     width: 100px;
+}
+
+#colorText {
+    font-size: 1.8em;
 }
