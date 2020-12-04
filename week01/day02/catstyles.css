@@ -28,6 +28,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 .column {
@@ -62,4 +63,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#img1 {
+    width: 100px;
 }
