@@ -1,0 +1,52 @@
+body {
+    margin-top: 0;
+}
+
+header {
+    background-color: blue;
+    color: aquamarine;
+    height: 200px;
+    border-radius: 20px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 40%;
+    float: left;
+}
+
+.panel {
+    border: 5px solid lightblue;
+    padding: 5px;
+}
+
+.panel-head {
+    margin-top: 50px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#weezy-img {
+    margin-top: 50px;
+    border: 6px solid lightblue;
+    width: 100%;
+}
