@@ -24,7 +24,9 @@ header {
     width: 1024px;
 }
 
-#bio-main, #bio-img, #contact-info {
+#bio-main,
+#bio-img,
+#contact-info {
     float: left;
 }
 
@@ -38,4 +40,8 @@ header {
 
 img {
     margin-right: 6px;
+}
+
+a {
+    color: red;
 }
