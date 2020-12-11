@@ -54,7 +54,7 @@ h1 {
 }
 
 .panel-head {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: lightblue;
@@ -95,4 +95,13 @@ h1 {
 
 #colorText {
     font-size: 1.8em;
+}
+
+#alterText {
+    padding: 5px;
+    background-color: blue;
+    color: aquamarine;
+    border-radius: 3px;
+    width: 25%;
+    margin: 0;
 }
