@@ -8,21 +8,27 @@
 </head>
 
 <body>
+    <button onclick="getLocation()">Try It</button>
+    <p id="demo"></p>
+
     <script>
-        let location = navigator.geolocation;
-        if (location) {
-            let pos = location.getCurrentPosition(showPosition);
-            alert(pos);
-        } else {
-            alert("Geolocation not available");
+        var x = document.getElementById("demo");
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
         }
 
-        if (position.coords.longitude >= -98) {
-            window.location.href = "east.html";
-        } else if (position.coords.longitude < -98) {
-            window.location.href = "west.html";
+        function showPosition(position) {
+            if (position.coords.longitude >= -98) {
+                window.location.href = "east.html";
+            } else if (position.coords.longitude < -98) {
+                window.location.href = "west.html";
+            }
         }
-
 
     </script>
 </body>
