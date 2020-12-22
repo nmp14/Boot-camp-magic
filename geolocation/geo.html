@@ -17,6 +17,12 @@
             alert("Geolocation not available");
         }
 
+        if (position.coords.longitude >= -98) {
+            window.location.href = "east.html";
+        } else if (position.coords.longitude < -98) {
+            window.location.href = "west.html";
+        }
+
 
     </script>
 </body>
